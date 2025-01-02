@@ -49,7 +49,7 @@ a.btn:hover {
 .container {
   width: 80%;
   margin: 0 auto;
-  /* border: 2px solid var(--lime-green); */
+  border: 2px solid var(--lime-green);
 }
 
 nav.main-nav {
@@ -105,30 +105,23 @@ nav li a:hover::after {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: baseline;
+  align-items: center;
   background: var(--very-light-gray);
-  height: 800px;
+  height: 700px;
   border: 2px solid black;
 }
 
-.show-case-1 .desktop {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  z-index: 5;
+.show-case-1-content {
 }
 
 .bg-intro {
   position: absolute;
   height: 860px;
-  top: 0;
-  transform: scale(1.5);
-  z-index: -1;
+  transform: translateY(-520px) scaleY(1.2) scaleX(1.05);
 }
 
 .bg-mockup {
   position: absolute;
-  top: 0%;
-  z-index: 10;
+  transform: translateY(-430px) translateX(180px) scale(1.1);
 }
 /* END SHOWCASE 1 */
